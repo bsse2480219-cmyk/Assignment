@@ -1,0 +1,23 @@
+.breadcrumb .breadcrumb-item::before {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+
+nav[aria-label="breadcrumb"] {
+  background-color: #343a40;
+}
+
+.breadcrumb-item a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: white;
+  font-weight: bold;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+}
